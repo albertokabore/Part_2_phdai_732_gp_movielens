@@ -1,0 +1,5 @@
+# Normalize line endings so Windows and Colab/Linux checkouts produce no
+# spurious whole-file diffs.
+* text=auto eol=lf
+*.png binary
+*.zip binary

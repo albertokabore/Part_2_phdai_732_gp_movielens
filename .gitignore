@@ -1,0 +1,20 @@
+# MovieLens raw files are downloaded by src/data.py and never committed.
+# The GroupLens license does not permit redistributing the dataset.
+data/ml-100k/
+data/*.zip
+data/*.part
+
+# Python and notebooks
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS files
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# results/ and figures/ ARE committed: they are the handoff between the
+# person who computes a number and the person who writes it down.
