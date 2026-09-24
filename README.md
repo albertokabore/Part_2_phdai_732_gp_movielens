@@ -6,7 +6,9 @@ assignment specifies. The Part 2 report also carries the Part 1 requirements
 (EDA, cleaning, model justification) for a recommender, which Part 1 did not
 cover.
 
-**If you are drafting a section, start with `results/KEY_NUMBERS.md`.** Every
+**If you are drafting a section, read [`DRAFTING_GUIDE.md`](DRAFTING_GUIDE.md) first.** It explains the code, the results, and what each section needs.
+
+**Take every number from `results/KEY_NUMBERS.md`.** Every
 number the report needs is there, with the file it came from. If a number in
 the paper is not in that file, it did not come from the pipeline.
 
