@@ -1,0 +1,19 @@
+{
+  "model": "baseline_only",
+  "split": "random",
+  "n_train": 80000,
+  "n_test": 20000,
+  "rmse": 0.9500460954576447,
+  "mae": 0.7516333496440278,
+  "mean_signed_error": 0.022614255729377176,
+  "n_impossible": 0,
+  "fit_seconds": 0.12595829996280372,
+  "test_seconds": 0.042094500036910176,
+  "seed": 42,
+  "surprise_version": "1.1.5",
+  "timestamp_utc": "2026-09-24T01:32:03.877268+00:00",
+  "cv_folds": 5,
+  "cv_rmse_mean": 0.9470925789339122,
+  "cv_rmse_sd": 0.0037141059828362305,
+  "cv_mae_mean": 0.7513812653085414
+}

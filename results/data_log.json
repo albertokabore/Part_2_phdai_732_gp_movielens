@@ -1,0 +1,44 @@
+{
+  "ratings_sha256": "06416e597f82b7342361e41163890c81036900f418ad91315590814211dca490",
+  "source": "https://files.grouplens.org/datasets/movielens/ml-100k.zip",
+  "fingerprint_status": "verified",
+  "cleaning": {
+    "rows_in": 100000,
+    "missing_values_ratings": 0,
+    "missing_values_users": 0,
+    "duplicate_user_item_pairs": 0,
+    "ratings_outside_scale": 0,
+    "non_integer_ratings": 0,
+    "users_below_min_ratings": 0,
+    "ratings_referencing_unknown_users": 0,
+    "ratings_referencing_unknown_items": 0,
+    "duplicate_titles": 18,
+    "item_ids_with_duplicate_titles": 36,
+    "duplicate_title_examples": [
+      "Designated Mourner, The (1997)",
+      "Ice Storm, The (1997)",
+      "That Darn Cat! (1997)",
+      "Money Talks (1997)",
+      "Sliding Doors (1998)"
+    ],
+    "items_with_unknown_genre_flag": 2,
+    "items_missing_release_date": 1,
+    "non_numeric_zip_codes": 18,
+    "rows_out": 100000
+  },
+  "shape": {
+    "n_ratings": 100000,
+    "n_users": 943,
+    "n_items": 1682,
+    "density": 0.06304669364224531,
+    "sparsity": 0.9369533063577546,
+    "first_rating_utc": "1997-09-20T03:05:10+00:00",
+    "last_rating_utc": "1998-04-22T23:10:38+00:00",
+    "mean_rating": 3.52986,
+    "sd_rating": 1.125673599144316,
+    "ratings_per_user_median": 65.0,
+    "ratings_per_user_max": 737,
+    "ratings_per_item_median": 27.0,
+    "items_with_fewer_than_5_ratings": 333
+  }
+}

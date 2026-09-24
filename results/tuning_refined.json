@@ -1,0 +1,56 @@
+{
+  "grid": "refined",
+  "param_grid": {
+    "n_factors": [
+      100,
+      150,
+      200
+    ],
+    "n_epochs": [
+      40,
+      60,
+      80
+    ],
+    "lr_all": [
+      0.01,
+      0.015,
+      0.02
+    ],
+    "reg_all": [
+      0.1,
+      0.15,
+      0.2
+    ]
+  },
+  "n_candidates": 81,
+  "cv_folds": 3,
+  "fit_on": "training partition only",
+  "best_params": {
+    "n_factors": 200,
+    "n_epochs": 80,
+    "lr_all": 0.01,
+    "reg_all": 0.15
+  },
+  "best_cv_rmse": 0.9294087585759812,
+  "best_cv_rmse_sd_across_folds": 0.0003191619328351488,
+  "best_cv_mae_at_best_rmse": 0.736850394189581,
+  "best_params_by_mae": {
+    "n_factors": 200,
+    "n_epochs": 60,
+    "lr_all": 0.01,
+    "reg_all": 0.1
+  },
+  "best_cv_mae": 0.7359515096125561,
+  "worst_cv_rmse": 0.9439738310016962,
+  "cv_rmse_spread": 0.014565072425715031,
+  "best_on_grid_edge": {
+    "n_factors": "upper",
+    "n_epochs": "upper",
+    "lr_all": "lower"
+  },
+  "top10_cv_rmse_spread": 0.0008016265814018153,
+  "default_config_in_grid": false,
+  "default_config_cv_rmse": null,
+  "default_config_cv_mae": null,
+  "search_seconds": 55.603607800090685
+}

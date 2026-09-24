@@ -1,0 +1,15 @@
+{
+  "model": "baseline_only_temporal",
+  "split": "random",
+  "n_train": 80000,
+  "n_test": 20000,
+  "rmse": 0.9500460954576447,
+  "mae": 0.7516333496440278,
+  "mean_signed_error": 0.022614255729377176,
+  "n_impossible": 0,
+  "fit_seconds": 0.1208617000374943,
+  "test_seconds": 0.16391190001741052,
+  "seed": 42,
+  "surprise_version": "1.1.5",
+  "timestamp_utc": "2026-09-24T01:34:28.495066+00:00"
+}

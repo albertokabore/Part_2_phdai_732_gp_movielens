@@ -1,0 +1,22 @@
+{
+  "svd_tuned_rmse_by_split": {
+    "random": 0.9213337532303719,
+    "user_chrono": 0.9715091250894939,
+    "global_chrono": 1.0208103467651612
+  },
+  "rmse_increase_random_to_global": 0.09947659353478933,
+  "rmse_increase_random_to_global_pct": 0.10797020426746053,
+  "global_chrono_warm_user_rmse": 0.978806564275158,
+  "global_chrono_cold_user_rmse": 1.0279093207015921,
+  "global_chrono_cold_user_share_of_test": 0.8524,
+  "svd_minus_baseline_rmse_by_split": {
+    "random": -0.028712342227272813,
+    "user_chrono": -0.02665342828750228,
+    "global_chrono": -0.009181409987654598
+  },
+  "future_information_by_split": {
+    "random": 0.97995,
+    "user_chrono": 0.9443599430842451,
+    "global_chrono": 0.0
+  }
+}

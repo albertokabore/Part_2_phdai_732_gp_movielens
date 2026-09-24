@@ -1,0 +1,31 @@
+user_type,user_id,train_ratings,rank,title,predicted
+heavy,405,603,1,Prefontaine (1997),3.259094790801889
+heavy,405,603,2,"Saint of Fort Washington, The (1993)",3.2297759611875905
+heavy,405,603,3,Golden Earrings (1947),3.1715663119362043
+heavy,405,603,4,It's a Wonderful Life (1946),3.1450810872387627
+heavy,405,603,5,Braveheart (1995),3.097753217352564
+heavy,405,603,6,My Man Godfrey (1936),3.0946408967775163
+heavy,405,603,7,"Sound of Music, The (1965)",3.0691465902403885
+heavy,405,603,8,Terminator 2: Judgment Day (1991),3.0668849432947316
+heavy,405,603,9,Pather Panchali (1955),3.060440305075171
+heavy,405,603,10,Much Ado About Nothing (1993),3.0509843672679486
+median,84,51,1,Pather Panchali (1955),4.834755896149765
+median,84,51,2,"World of Apu, The (Apur Sansar) (1959)",4.687943648358739
+median,84,51,3,"Saint of Fort Washington, The (1993)",4.676356188687606
+median,84,51,4,"Close Shave, A (1995)",4.649731372084233
+median,84,51,5,"Wrong Trousers, The (1993)",4.634375012800462
+median,84,51,6,"Whole Wide World, The (1996)",4.628595933566788
+median,84,51,7,Casablanca (1942),4.571976609590738
+median,84,51,8,Crossfire (1947),4.566898058390758
+median,84,51,9,Rear Window (1954),4.544712198724368
+median,84,51,10,12 Angry Men (1957),4.538551844781879
+light,651,11,1,Pather Panchali (1955),4.523278309793201
+light,651,11,2,"Saint of Fort Washington, The (1993)",4.511661106651708
+light,651,11,3,"World of Apu, The (Apur Sansar) (1959)",4.426236808213833
+light,651,11,4,"Wrong Trousers, The (1993)",4.424727534688239
+light,651,11,5,Paths of Glory (1957),4.393845233418545
+light,651,11,6,"Shawshank Redemption, The (1994)",4.349388682463556
+light,651,11,7,Schindler's List (1993),4.342681229066743
+light,651,11,8,Crossfire (1947),4.339816322380855
+light,651,11,9,Star Wars (1977),4.317380457700406
+light,651,11,10,12 Angry Men (1957),4.3170611621052455

@@ -1,0 +1,46 @@
+{
+  "grid": "assignment",
+  "param_grid": {
+    "n_factors": [
+      50,
+      100
+    ],
+    "n_epochs": [
+      20,
+      40
+    ],
+    "lr_all": [
+      0.002,
+      0.005
+    ]
+  },
+  "n_candidates": 8,
+  "cv_folds": 3,
+  "fit_on": "training partition only",
+  "best_params": {
+    "n_factors": 50,
+    "n_epochs": 20,
+    "lr_all": 0.005
+  },
+  "best_cv_rmse": 0.9502230598981622,
+  "best_cv_rmse_sd_across_folds": 0.00022915532821602677,
+  "best_cv_mae_at_best_rmse": 0.7505191241374399,
+  "best_params_by_mae": {
+    "n_factors": 50,
+    "n_epochs": 20,
+    "lr_all": 0.005
+  },
+  "best_cv_mae": 0.7505191241374399,
+  "worst_cv_rmse": 0.9702442641735186,
+  "cv_rmse_spread": 0.020021204275356363,
+  "best_on_grid_edge": {
+    "n_factors": "lower",
+    "n_epochs": "lower",
+    "lr_all": "upper"
+  },
+  "top10_cv_rmse_spread": 0.020021204275356363,
+  "default_config_in_grid": true,
+  "default_config_cv_rmse": 0.9534441483507871,
+  "default_config_cv_mae": 0.7535723624754596,
+  "search_seconds": 4.361403699964285
+}

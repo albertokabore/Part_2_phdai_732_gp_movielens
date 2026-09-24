@@ -1,0 +1,21 @@
+{
+  "model": "svd_tuned_temporal",
+  "split": "global_chrono",
+  "n_train": 80000,
+  "n_test": 20000,
+  "rmse": 1.0208103467651612,
+  "mae": 0.8236920512223138,
+  "mean_signed_error": -0.021436154365328353,
+  "n_impossible": 0,
+  "fit_seconds": 6.31552990002092,
+  "test_seconds": 0.08728119998704642,
+  "seed": 42,
+  "surprise_version": "1.1.5",
+  "timestamp_utc": "2026-09-24T01:34:48.682350+00:00",
+  "params": {
+    "n_factors": 200,
+    "n_epochs": 80,
+    "lr_bu": 0.01,
+    "reg_bu": 0.15
+  }
+}

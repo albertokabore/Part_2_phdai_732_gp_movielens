@@ -1,0 +1,15 @@
+{
+  "model": "baseline_only_temporal",
+  "split": "global_chrono",
+  "n_train": 80000,
+  "n_test": 20000,
+  "rmse": 1.0299917567528158,
+  "mae": 0.8213612213348693,
+  "mean_signed_error": 0.10071852899230896,
+  "n_impossible": 0,
+  "fit_seconds": 0.13237109989859164,
+  "test_seconds": 0.1348188000265509,
+  "seed": 42,
+  "surprise_version": "1.1.5",
+  "timestamp_utc": "2026-09-24T01:34:42.140730+00:00"
+}

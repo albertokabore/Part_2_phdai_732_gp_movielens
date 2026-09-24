@@ -1,0 +1,130 @@
+{
+  "tuned_params": {
+    "n_factors": 200,
+    "n_epochs": 80,
+    "lr_all": 0.01,
+    "reg_all": 0.15
+  },
+  "test": {
+    "rmse": 0.9213337532303719,
+    "mae": 0.7290628580040158,
+    "mean_signed_error": 0.017600883156390495,
+    "train_rmse": 0.7905386206001472,
+    "train_test_rmse_gap": 0.1307951326302247,
+    "cv_rmse_mean": 0.9225638926828443,
+    "cv_rmse_sd": 0.004590921347299052
+  },
+  "improvement_over_default": {
+    "default_svd_test_rmse": 0.9411674430191296,
+    "tuned_svd_test_rmse": 0.9213337532303719,
+    "rmse_reduction": 0.019833689788757658,
+    "rmse_reduction_pct": 0.021073497533163746,
+    "default_svd_test_mae": 0.7413493413414417,
+    "tuned_svd_test_mae": 0.7290628580040158,
+    "mae_reduction": 0.01228648333742588,
+    "default_svd_cv_rmse_sd": 0.0041249419866986594,
+    "reduction_exceeds_default_cv_sd": true,
+    "baseline_only_test_rmse": 0.9500460954576447,
+    "tuned_vs_baseline_only_rmse_reduction": 0.028712342227272813
+  },
+  "ranking": {
+    "baseline_only": {
+      "k": 10,
+      "threshold": 4.0,
+      "precision_at_k": 0.5956593536211371,
+      "recall_at_k": 0.2490307264820112,
+      "users_scored": 942
+    },
+    "knn_item": {
+      "k": 10,
+      "threshold": 4.0,
+      "precision_at_k": 0.37146816971657737,
+      "recall_at_k": 0.204402616785723,
+      "users_scored": 942
+    },
+    "svd": {
+      "k": 10,
+      "threshold": 4.0,
+      "precision_at_k": 0.6192397128702861,
+      "recall_at_k": 0.28170539203488965,
+      "users_scored": 942
+    },
+    "svd_tuned": {
+      "k": 10,
+      "threshold": 4.0,
+      "precision_at_k": 0.5962347925723722,
+      "recall_at_k": 0.261447476966979,
+      "users_scored": 942
+    }
+  },
+  "compression": {
+    "sd_actual": 1.1269670360019461,
+    "sd_predicted": 0.5774057810862471,
+    "mean_predicted_when_true_is_1": 2.7701202756421828,
+    "mean_predicted_when_true_is_5": 3.9673015444313835
+  },
+  "rmse_by_support": {
+    "user_train_ratings": [
+      {
+        "label": "11-59",
+        "n": 4076,
+        "rmse": 0.9646038658500529
+      },
+      {
+        "label": "60-115",
+        "n": 3958,
+        "rmse": 0.9311289356129787
+      },
+      {
+        "label": "116-171",
+        "n": 3969,
+        "rmse": 0.9036726800629051
+      },
+      {
+        "label": "172-243",
+        "n": 4087,
+        "rmse": 0.896136049789852
+      },
+      {
+        "label": "244-603",
+        "n": 3910,
+        "rmse": 0.9088485878475828
+      }
+    ],
+    "item_train_ratings": [
+      {
+        "label": "0-48",
+        "n": 4055,
+        "rmse": 0.9819910758044786
+      },
+      {
+        "label": "49-93",
+        "n": 3990,
+        "rmse": 0.9130970060351554
+      },
+      {
+        "label": "94-137",
+        "n": 3994,
+        "rmse": 0.9025239104176719
+      },
+      {
+        "label": "138-208",
+        "n": 3985,
+        "rmse": 0.8813305921836544
+      },
+      {
+        "label": "209-477",
+        "n": 3976,
+        "rmse": 0.923586282359742
+      }
+    ]
+  },
+  "largest_error_titles": [
+    "Another Stakeout (1993)",
+    "Jerry Maguire (1996)",
+    "Amadeus (1984)",
+    "World of Apu, The (Apur Sansar) (1959)",
+    "English Patient, The (1996)"
+  ],
+  "vectorized_topn_max_abs_diff_vs_predict": 8.881784197001252e-16
+}

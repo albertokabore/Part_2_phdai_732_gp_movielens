@@ -1,0 +1,15 @@
+{
+  "model": "normal_predictor",
+  "split": "random",
+  "n_train": 80000,
+  "n_test": 20000,
+  "rmse": 1.520942808540291,
+  "mae": 1.2190680493779458,
+  "mean_signed_error": -0.0294005046601029,
+  "n_impossible": 0,
+  "fit_seconds": 0.07134599995333701,
+  "test_seconds": 0.0921807000413537,
+  "seed": 42,
+  "surprise_version": "1.1.5",
+  "timestamp_utc": "2026-09-24T01:32:03.623432+00:00"
+}

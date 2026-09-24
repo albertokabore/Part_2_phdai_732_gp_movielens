@@ -1,0 +1,25 @@
+{
+  "model": "svd",
+  "split": "random",
+  "n_train": 80000,
+  "n_test": 20000,
+  "rmse": 0.9411674430191296,
+  "mae": 0.7413493413414417,
+  "mean_signed_error": 0.020724466003422072,
+  "n_impossible": 0,
+  "fit_seconds": 0.8397534999530762,
+  "test_seconds": 0.12104110000655055,
+  "seed": 42,
+  "surprise_version": "1.1.5",
+  "timestamp_utc": "2026-09-24T01:32:17.949998+00:00",
+  "params": {
+    "n_factors": 100,
+    "n_epochs": 20,
+    "lr_bu": 0.005,
+    "reg_bu": 0.02
+  },
+  "cv_folds": 5,
+  "cv_rmse_mean": 0.944957245009331,
+  "cv_rmse_sd": 0.0041249419866986594,
+  "cv_mae_mean": 0.7456993458044883
+}

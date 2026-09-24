@@ -1,0 +1,35 @@
+{
+  "groups": {
+    "overall_rmse": 0.9213337532303719,
+    "gender_gap": {
+      "rmse_F_minus_M": 0.07500761272046985,
+      "ci_low": 0.03579980035774445,
+      "ci_high": 0.11823844437510023,
+      "ci_excludes_zero": true
+    },
+    "gender_gap_by_activity_quartile": {
+      "Q1 (lightest)": 0.08574665646253532,
+      "Q2": 0.1252561820328978,
+      "Q3": 0.03344472546942867,
+      "Q4 (heaviest)": 0.03983737484372207
+    },
+    "gender_gap_positive_in_every_quartile": true,
+    "spearman_user_train_ratings_vs_user_rmse": -0.04723327931883678,
+    "age_band_rmse_range": 0.10051731712003298
+  },
+  "popularity": {
+    "catalog_coverage": 0.0841404358353511,
+    "distinct_items_recommended": 139,
+    "share_of_recs_from_top_decile": 0.2230116648992577,
+    "share_of_train_ratings_on_top_decile": 0.4243375,
+    "share_of_recs_from_bottom_half": 0.5845174973488865,
+    "gini_of_recommendation_counts": 0.9869343114422827,
+    "mean_popularity_percentile_of_recommended_items": 0.47327016451025655,
+    "most_recommended_item_share_of_users": 0.9734888653234358,
+    "most_recommended_item_train_ratings": 7,
+    "share_of_recs_to_items_under_10_train_ratings": 0.5650053022269353,
+    "share_of_catalog_under_10_train_ratings": 0.3383777239709443,
+    "mean_pairwise_list_overlap": 0.36011922334151747,
+    "items_under_10_train_ratings_in_over_half_of_lists": 4
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "model": "knn_item",
+  "split": "random",
+  "n_train": 80000,
+  "n_test": 20000,
+  "rmse": 0.9808210644915085,
+  "mae": 0.7737714427960318,
+  "mean_signed_error": 0.02706732791344474,
+  "n_impossible": 31,
+  "fit_seconds": 0.4521777000045404,
+  "test_seconds": 2.087585399975069,
+  "seed": 42,
+  "surprise_version": "1.1.5",
+  "timestamp_utc": "2026-09-24T01:32:07.636794+00:00",
+  "cv_folds": 5,
+  "cv_rmse_mean": 0.9871805121490518,
+  "cv_rmse_sd": 0.005613329464788582,
+  "cv_mae_mean": 0.7815709438644195
+}

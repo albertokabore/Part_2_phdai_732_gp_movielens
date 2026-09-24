@@ -1,0 +1,28 @@
+{
+  "long_tail": {
+    "users": {
+      "median": 65.0,
+      "mean": 106.04453870625663,
+      "min": 20,
+      "max": 737,
+      "gini": 0.47190850477200424,
+      "share_of_ratings_from_top_10pct_users": 0.32189
+    },
+    "items": {
+      "median": 27.0,
+      "mean": 59.45303210463734,
+      "min": 1,
+      "max": 583,
+      "gini": 0.628999631391201,
+      "share_of_ratings_on_top_10pct_items": 0.42871,
+      "share_of_ratings_on_top_20pct_items": 0.64719,
+      "items_with_1_rating": 141,
+      "items_with_under_10_ratings": 530
+    }
+  },
+  "popularity_vs_mean": {
+    "sd_of_item_means_under_10_ratings": 0.9610457480046152,
+    "sd_of_item_means_100_plus_ratings": 0.4159395212002045,
+    "items_with_mean_5_and_under_5_ratings": 10
+  }
+}

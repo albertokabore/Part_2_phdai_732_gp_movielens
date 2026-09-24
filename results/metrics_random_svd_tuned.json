@@ -1,0 +1,25 @@
+{
+  "model": "svd_tuned",
+  "split": "random",
+  "n_train": 80000,
+  "n_test": 20000,
+  "rmse": 0.9213337532303719,
+  "mae": 0.7290628580040158,
+  "mean_signed_error": 0.017600883156390495,
+  "n_impossible": 0,
+  "fit_seconds": 6.172728799981996,
+  "test_seconds": 0.18732219992671162,
+  "seed": 42,
+  "surprise_version": "1.1.5",
+  "timestamp_utc": "2026-09-24T01:33:48.318833+00:00",
+  "params": {
+    "n_factors": 200,
+    "n_epochs": 80,
+    "lr_bu": 0.01,
+    "reg_bu": 0.15
+  },
+  "cv_folds": 5,
+  "cv_rmse_mean": 0.9225638926828443,
+  "cv_rmse_sd": 0.004590921347299052,
+  "cv_mae_mean": 0.731252356625187
+}
