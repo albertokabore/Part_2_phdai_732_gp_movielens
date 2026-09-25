@@ -1,0 +1,4 @@
+split,Test RMSE,Test ratings with later training ratings of the same movie,Test ratings from users unseen in training
+random,0.921,0.98,0.0
+user_chrono,0.972,0.944,0.0
+global_chrono,1.021,0.0,0.852

@@ -10,6 +10,9 @@ __pycache__/
 .ipynb_checkpoints/
 .venv/
 venv/
+.draft_deps/
+drafts/.mplconfig/
+~$*.docx
 
 # OS files
 desktop.ini

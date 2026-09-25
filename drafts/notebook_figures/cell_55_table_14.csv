@@ -1,0 +1,3 @@
+,recs to thin-evidence movies,distinct movies recommended,catalog coverage,most-recommended movie,its share of users' lists
+Untuned SVD,0.0014846235418875928,249,0.14803804994054698,"Wrong Trousers, The (1993)",0.7073170731707317
+Tuned SVD,0.5650053022269353,139,0.08263971462544589,Pather Panchali (1955),0.9734888653234358

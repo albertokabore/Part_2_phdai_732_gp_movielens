@@ -1,0 +1,92 @@
+[
+  {
+    "cell": 9,
+    "title": "V1. Assignment grid: all 8 candidates (orange = Surprise's defaults)",
+    "file": "cell_09_figure_01.png"
+  },
+  {
+    "cell": 11,
+    "title": "V2. Assignment grid sensitivity   (dot = mean over the other settings, bar = best to worst)",
+    "file": "cell_11_figure_02.png"
+  },
+  {
+    "cell": 15,
+    "title": "V3. Expanded grid sensitivity   (dot = mean over the other settings, bar = best to worst)",
+    "file": "cell_15_figure_03.png"
+  },
+  {
+    "cell": 17,
+    "title": "V4a. Best CV RMSE: reg_all x lr_all; V4b. Best CV RMSE: reg_all x n_epochs",
+    "file": "cell_17_figure_04.png"
+  },
+  {
+    "cell": 21,
+    "title": "V5a. Refined grid sensitivity   (dot = mean over the other settings, bar = best to worst)",
+    "file": "cell_21_figure_05.png"
+  },
+  {
+    "cell": 21,
+    "title": "V5b. Best CV RMSE: reg_all x n_epochs; V5c. Best CV RMSE: reg_all x n_factors",
+    "file": "cell_21_figure_06.png"
+  },
+  {
+    "cell": 23,
+    "title": "V6. Refined grid: 15 best candidates (orange = selected)",
+    "file": "cell_23_figure_07.png"
+  },
+  {
+    "cell": 26,
+    "title": "V7a. Every candidate (orange = best of each grid); V7b. Best CV RMSE after each search",
+    "file": "cell_26_figure_08.png"
+  },
+  {
+    "cell": 32,
+    "title": "V8a. Test error by model; V8b. Size of each improvement; V8c. Training vs test RMSE",
+    "file": "cell_32_figure_09.png"
+  },
+  {
+    "cell": 36,
+    "title": "V9a. Tuned SVD predictions by true rating; V9b. Where each true rating lands (row %)",
+    "file": "cell_36_figure_10.png"
+  },
+  {
+    "cell": 38,
+    "title": "V10a. Predictions cluster between 3 and 4; V10b. Residual distribution on the test set",
+    "file": "cell_38_figure_11.png"
+  },
+  {
+    "cell": 39,
+    "title": "V11. Over-prediction of low ratings, under-prediction of high",
+    "file": "cell_39_figure_12.png"
+  },
+  {
+    "cell": 43,
+    "title": "V12a. Users: RMSE by training volume; V12b. Movies: RMSE by training volume; V12c. Per-user RMSE (users with 5+ test ratings)",
+    "file": "cell_43_figure_13.png"
+  },
+  {
+    "cell": 47,
+    "title": "V13. The 12 largest test errors",
+    "file": "cell_47_figure_14.png"
+  },
+  {
+    "cell": 51,
+    "title": "V14a. Ranking quality at k = 10 (higher is better); V14b. Precision@k; V14c. Recall@k",
+    "file": "cell_51_figure_15.png"
+  },
+  {
+    "cell": 52,
+    "title": "V15a. Distribution of per-user precision@10; V15b. Per-user change in precision@10 from tuning",
+    "file": "cell_52_figure_16.png"
+  },
+  {
+    "cell": 56,
+    "title": "V16a. Evidence behind each recommendation; V16b. Recommendations to thin-evidence movies; V16c. Tuned SVD's most-recommended movies (orange = fewer than 10 training ratings)",
+    "file": "cell_56_figure_17.png"
+  },
+  {
+    "cell": 60,
+    "title": "V17a. Test RMSE by split; V17b. What each split leaks or withholds; V17c. Global split: returning vs new users",
+    "file": "cell_60_figure_18.png"
+  }
+]

@@ -1,0 +1,65 @@
+,status,report statement,in report,recomputed
+0,OK,Untuned defaults CV RMSE on the tuning folds,0.9534,0.953444
+1,OK,Assignment grid best CV RMSE,0.9502,0.950223
+2,OK,Assignment grid gain over defaults,0.0032,0.003221
+3,OK,Expanded grid best CV RMSE,0.9306,0.930595
+4,OK,Refined grid best CV RMSE (selected),0.9294,0.929409
+5,OK,Refined best fold SD,0.0003,0.000319
+6,OK,Expanded sensitivity: reg_all,0.0235,0.023471
+7,OK,Expanded sensitivity: lr_all,0.0059,0.00588
+8,OK,Expanded mean CV RMSE at reg_all 0.02,0.968,0.96763
+9,OK,Expanded mean CV RMSE at reg_all 0.1,0.944,0.94416
+10,OK,Refined sensitivity: reg_all,0.0079,0.007884
+11,OK,Refined sensitivity: largest other parameter,0.0011,0.001066
+12,OK,Refined: reg_all 0.15 best in N of 27,24.0,24.0
+13,OK,Refined: spread of top 10 candidates,0.0008,0.000802
+14,OK,Refined: best of top 3,0.9294,0.929409
+15,OK,Refined: worst of top 3,0.9297,0.929663
+16,OK,Tuned SVD test RMSE,0.921,0.92133
+17,OK,Tuned SVD test MAE,0.729,0.72906
+18,OK,Untuned SVD test RMSE,0.941,0.94117
+19,OK,Untuned SVD test MAE,0.741,0.74135
+20,OK,Bias-only baseline test RMSE,0.95,0.95005
+21,OK,Bias-only baseline test MAE,0.752,0.75163
+22,OK,RMSE reduction from tuning,0.0198,0.019834
+23,OK,"RMSE reduction from tuning, percent",2.11,2.1073
+24,OK,MAE reduction from tuning,0.0123,0.012286
+25,OK,Tuned SVD gain over bias-only baseline,0.029,0.02871
+26,OK,Untuned SVD 5-fold CV SD (scale reference only),0.0041,0.004125
+27,OK,Tuned SVD training RMSE,0.791,0.79054
+28,OK,Train-to-test gap,0.131,0.1308
+29,OK,SD of tuned predictions,0.58,0.5774
+30,OK,SD of true test ratings,1.13,1.127
+31,OK,Mean prediction when true rating is 1,2.77,2.7701
+32,OK,Mean prediction when true rating is 5,3.97,3.9673
+33,OK,"RMSE, lowest user-support group of test ratings",0.965,0.9646
+34,OK,"RMSE, other user quintiles (min)",0.896,0.89614
+35,OK,"RMSE, other user quintiles (max)",0.931,0.93113
+36,OK,"RMSE, lowest movie-support group of test ratings",0.982,0.98199
+37,OK,"RMSE, other movie quintiles (min)",0.881,0.88133
+38,OK,"RMSE, other movie quintiles (max)",0.924,0.92359
+39,OK,"Precision@10, untuned SVD",0.619,0.61924
+40,OK,"Precision@10, tuned SVD",0.596,0.59623
+41,OK,"Precision@10, bias-only baseline",0.596,0.59566
+42,OK,"Recall@10, untuned SVD",0.282,0.28171
+43,OK,"Recall@10, tuned SVD",0.261,0.26145
+44,OK,"Recall@10, bias-only baseline",0.249,0.24903
+45,OK,Random split: future-information share (percent),98.0,97.995
+46,OK,Per-user chronological RMSE,0.972,0.97151
+47,OK,Global chronological RMSE,1.021,1.02081
+48,OK,Random to global increase (percent),10.8,10.797
+49,OK,Per-user split: future-information share (percent),94.4,94.436
+50,OK,Global split: new-user share (percent),85.2,85.24
+51,OK,Global split: new-user RMSE,1.028,1.02791
+52,OK,Global split: returning-user RMSE,0.979,0.97881
+53,OK,"SVD gain over baseline, per-user split",0.027,0.02665
+54,OK,"SVD gain over baseline, global split",0.009,0.00918
+55,OK,"Assignment mean CV RMSE, n_factors 50",0.9573,0.957271
+56,OK,"Assignment mean CV RMSE, n_factors 100",0.9599,0.959859
+57,OK,"Assignment mean CV RMSE, n_epochs 20",0.9558,0.955821
+58,OK,"Assignment mean CV RMSE, n_epochs 40",0.9613,0.961308
+59,OK,"Assignment mean CV RMSE, lr_all 0.002",0.9563,0.956289
+60,OK,"Assignment mean CV RMSE, lr_all 0.005",0.9608,0.960841
+61,OK,"Refined mean CV RMSE, reg_all 0.1",0.9323,0.932303
+62,OK,"Refined mean CV RMSE, reg_all 0.15",0.9309,0.930874
+63,OK,"Refined mean CV RMSE, reg_all 0.2",0.9388,0.938758

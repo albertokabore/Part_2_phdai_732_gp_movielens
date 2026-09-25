@@ -1,0 +1,80 @@
+surprise 1.1.5 | numpy 2.3.4 | pandas 2.3.3 | seed 42
+ratings 100,000 | training partition 80,000 | test set 20,000
+Best: {'n_factors': 50, 'n_epochs': 20, 'lr_all': 0.005} CV RMSE 0.9502
+Untuned SVD defaults on the same folds: CV RMSE 0.9534  (improvement 0.0032)
+Winner on a grid edge: {'n_factors': 'lower', 'n_epochs': 'lower', 'lr_all': 'upper'}
+Sensitivity: {'n_epochs': 0.0055, 'lr_all': 0.0046, 'n_factors': 0.0026}
+OK   assignment grid best CV RMSE                   recomputed 0.9502 | committed 0.9502
+OK   untuned defaults CV RMSE (same folds)          recomputed 0.9534 | committed 0.9534
+{'n_factors': [50, 100, 150], 'n_epochs': [20, 40], 'lr_all': [0.002, 0.005, 0.01], 'reg_all': [0.02, 0.05, 0.1]}
+Best: {'n_factors': 150, 'n_epochs': 40, 'lr_all': 0.01, 'reg_all': 0.1} CV RMSE 0.9306
+Winner on a grid edge: {'n_factors': 'upper', 'n_epochs': 'upper', 'lr_all': 'upper', 'reg_all': 'upper'} -> the optimum may lie outside this grid
+Sensitivity: {'reg_all': 0.0235, 'lr_all': 0.0059, 'n_factors': 0.0013, 'n_epochs': 0.0007}
+OK   expanded grid best CV RMSE                     recomputed 0.9306 | committed 0.9306
+{'n_factors': [100, 150, 200], 'n_epochs': [40, 60, 80], 'lr_all': [0.01, 0.015, 0.02], 'reg_all': [0.1, 0.15, 0.2]}
+Best: {'n_factors': 200, 'n_epochs': 80, 'lr_all': 0.01, 'reg_all': 0.15} CV RMSE 0.9294 (fold SD 0.0003)
+Winner on a grid edge: {'n_factors': 'upper', 'n_epochs': 'upper', 'lr_all': 'lower'}
+Top 10 candidates lie within 0.0008 CV RMSE of each other
+Sensitivity: {'reg_all': 0.0079, 'n_epochs': 0.0011, 'n_factors': 0.0009, 'lr_all': 0.0008}
+OK   refined grid best CV RMSE                      recomputed 0.9294 | committed 0.9294
+Selected (lowest CV RMSE across all grids): {'n_factors': 200, 'n_epochs': 80, 'lr_all': 0.01, 'reg_all': 0.15}
+Expanded grid, mean CV RMSE by reg_all: {'0.02': 0.968, '0.05': 0.95, '0.1': 0.944}
+Refined grid: reg_all = 0.15 is best in 24 of 27 combinations of the other settings
+The three best refined candidates differ only in: ['n_factors'] | CV RMSE 0.9294 to 0.9297
+OK   tuning_surface_assignment.csv: 8/8 candidates matched, max |CV RMSE difference| 0.0e+00
+OK   tuning_surface_expanded.csv: 54/54 candidates matched, max |CV RMSE difference| 0.0e+00
+OK   tuning_surface_refined.csv: 81/81 candidates matched, max |CV RMSE difference| 0.0e+00
+
+Report Table X. Three Grid Searches on the Same Three Training Folds
+Note: Surprise's default SVD (100, 20, 0.005, 0.02) scored 0.9534 on the same folds.
+
+Report Figure X (figures/tuning_sensitivity_expanded.png):
+Tuning reduced test RMSE by 0.0198 (2.11%) and MAE by 0.0123
+Tuned SVD vs bias-only baseline: 0.0287 lower RMSE
+OK   tuned test RMSE                                recomputed 0.9213 | committed 0.9213
+OK   tuned test MAE                                 recomputed 0.7291 | committed 0.7291
+OK   untuned test RMSE                              recomputed 0.9412 | committed 0.9412
+OK   untuned test MAE                               recomputed 0.7413 | committed 0.7413
+OK   bias-only baseline test RMSE                   recomputed 0.9500 | committed 0.9500
+OK   tuned training RMSE                            recomputed 0.7905 | committed 0.7905
+SD of tuned predictions 0.58 vs SD of true ratings 1.13
+OK   SD of tuned predictions                        recomputed 0.5774 | committed 0.5774
+Test RMSE by quintile of user_train_ratings (lightest to heaviest):
+Test RMSE by quintile of item_train_ratings (lightest to heaviest):
+OK   baseline precision@10                          recomputed 0.5957 | committed 0.5957
+OK   untuned precision@10                           recomputed 0.6192 | committed 0.6192
+OK   tuned precision@10                             recomputed 0.5962 | committed 0.5962
+OK   untuned recall@10                              recomputed 0.2817 | committed 0.2817
+OK   tuned recall@10                                recomputed 0.2614 | committed 0.2614
+OK   random tuned RMSE                              recomputed 0.9213 | committed 0.9213
+OK   random future-information share                recomputed 0.9799 | committed 0.9799
+OK   user_chrono tuned RMSE                         recomputed 0.9715 | committed 0.9715
+OK   user_chrono future-information share           recomputed 0.9444 | committed 0.9444
+OK   global_chrono tuned RMSE                       recomputed 1.0208 | committed 1.0208
+OK   global_chrono future-information share         recomputed 0.0000 | committed 0.0000
+OK   global chrono new-user share                   recomputed 0.8524 | committed 0.8524
+Report Table X. Test-Set Rating Error and Ranking Quality by Model
+Report Table X. Tuned SVD Test RMSE Under Three Train/Test Splits
+OK   final_model_comparison.csv baseline_only RMSE  recomputed 0.9500 | committed 0.9500
+OK   final_model_comparison.csv baseline_only MAE   recomputed 0.7516 | committed 0.7516
+OK   final_model_comparison.csv svd RMSE            recomputed 0.9412 | committed 0.9412
+OK   final_model_comparison.csv svd MAE             recomputed 0.7413 | committed 0.7413
+OK   final_model_comparison.csv svd_tuned RMSE      recomputed 0.9213 | committed 0.9213
+OK   final_model_comparison.csv svd_tuned MAE       recomputed 0.7291 | committed 0.7291
+OK   final_ranking_metrics.csv baseline_only precision@10 recomputed 0.5957 | committed 0.5957
+OK   final_ranking_metrics.csv baseline_only recall@10 recomputed 0.2490 | committed 0.2490
+OK   final_ranking_metrics.csv svd precision@10     recomputed 0.6192 | committed 0.6192
+OK   final_ranking_metrics.csv svd recall@10        recomputed 0.2817 | committed 0.2817
+OK   final_ranking_metrics.csv svd_tuned precision@10 recomputed 0.5962 | committed 0.5962
+OK   final_ranking_metrics.csv svd_tuned recall@10  recomputed 0.2614 | committed 0.2614
+OK   final_error_by_true_rating.csv mean pred | true 1 recomputed 2.7701 | committed 2.7701
+OK   final_error_by_true_rating.csv mean pred | true 5 recomputed 3.9673 | committed 3.9673
+OK   final_rmse_by_user_train_ratings.csv lightest quintile recomputed 0.9646 | committed 0.9646
+OK   final_rmse_by_user_train_ratings.csv max |quintile difference| recomputed 0.0000 | committed 0.0000
+OK   final_rmse_by_item_train_ratings.csv lightest quintile recomputed 0.9820 | committed 0.9820
+OK   final_rmse_by_item_train_ratings.csv max |quintile difference| recomputed 0.0000 | committed 0.0000
+OK   temporal_comparison.csv global returning-user RMSE recomputed 0.9788 | committed 0.9788
+OK   temporal_comparison.csv global new-user RMSE   recomputed 1.0279 | committed 1.0279
+
+Report Figure X (figures/final_predicted_by_true_rating.png):
+64 of 64 quoted numbers match this run.

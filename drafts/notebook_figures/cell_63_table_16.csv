@@ -1,0 +1,4 @@
+,RMSE,MAE,Precision@10,Recall@10
+Bias-only baseline,0.95,0.752,0.596,0.249
+Untuned SVD,0.941,0.741,0.619,0.282
+Tuned SVD,0.921,0.729,0.596,0.261

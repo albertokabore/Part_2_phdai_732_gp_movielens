@@ -1,0 +1,4 @@
+,Search,Candidates,Values searched,Best CV RMSE (fold SD),Best setting,Winner on grid edge
+0,Assignment,8,"n_factors {50, 100}; n_epochs {20, 40}; lr_all {0.002, 0.005}; reg_all 0.02 (fixed)",0.9502 (0.0002),"50, 20, 0.005","n_factors (low), n_epochs (low), lr_all (high)"
+1,Expanded,54,"n_factors {50, 100, 150}; n_epochs {20, 40}; lr_all {0.002, 0.005, 0.01}; reg_all {0.02, 0.05, 0.1}",0.9306 (0.0006),"150, 40, 0.01, 0.1","n_factors (high), n_epochs (high), lr_all (high), reg_all (high)"
+2,Refined,81,"n_factors {100, 150, 200}; n_epochs {40, 60, 80}; lr_all {0.01, 0.015, 0.02}; reg_all {0.1, 0.15, 0.2}",0.9294 (0.0003),"200, 80, 0.01, 0.15","n_factors (high), n_epochs (high), lr_all (low)"

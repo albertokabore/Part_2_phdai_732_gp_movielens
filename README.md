@@ -19,6 +19,12 @@ the paper is not in that file, it did not come from the pipeline.
 Open `notebooks/part2_colab.ipynb` and run the cells in order. The notebook
 clones this repo, installs Surprise, runs the pipeline, and shows the results.
 
+`notebooks/part2_tuning_evaluation.ipynb` walks through Deliverable 2's tuning and
+final-evaluation steps one cell at a time, with 17 visualizations (the assignment's GridSearchCV grid,
+the expanded and refined grids, test RMSE and MAE, prediction analysis,
+precision@10 and recall@10, and the chronological splits). It recomputes the
+results in memory, checks each one against `results/`, and writes nothing.
+
 ### Local
 
 ```

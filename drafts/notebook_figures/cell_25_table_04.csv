@@ -1,0 +1,4 @@
+,grid,candidates,best CV RMSE,best settings,on edge,most sensitive
+0,assignment,8,0.9502230598981622,"{'n_factors': 50, 'n_epochs': 20, 'lr_all': 0.005}","{'n_factors': 'lower', 'n_epochs': 'lower', 'lr_all': 'upper'}",n_epochs
+1,expanded,54,0.930595321491664,"{'n_factors': 150, 'n_epochs': 40, 'lr_all': 0.01, 'reg_all': 0.1}","{'n_factors': 'upper', 'n_epochs': 'upper', 'lr_all': 'upper', 'reg_all': 'upper'}",reg_all
+2,refined,81,0.9294087585759812,"{'n_factors': 200, 'n_epochs': 80, 'lr_all': 0.01, 'reg_all': 0.15}","{'n_factors': 'upper', 'n_epochs': 'upper', 'lr_all': 'lower'}",reg_all
